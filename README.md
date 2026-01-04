@@ -24,10 +24,12 @@ Overlap layer :
 
 <img src="imgs/intersect_area.png" width="400">
   
-Result Table :  
+Result Table (summary for all the geometries) :  
   
 <img src="imgs/resu_table.png" width="400">
 
+  
+  *IoU value can be displayed per polygon
 
 ## Requirements
 * QGIS 3.0 or higher.
