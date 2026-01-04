@@ -17,15 +17,15 @@ The calculation methodology follows the approach used in the RAMP project for bu
 
 ## Output
 Polygons before calculation :   
-![Alt text](imgs\polygons_for_calc.png)
+![Alt text](imgs/polygons_for_calc.png)
 
 Overlap layer :  
 
-![Alt text](imgs\intersect_area.png)
-
+![Alt text](imgs/intersect_area.png)
+  
 Result Table :  
-
-![Alt text](imgs\resu_table.png)
+  
+![Alt text](imgs/resu_table.png)
 
 
 ## Requirements
