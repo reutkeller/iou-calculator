@@ -16,16 +16,16 @@ The calculation methodology follows the approach used in the RAMP project for bu
 2.  **Object Matching:** A prediction is counted as a **True Positive (TP)** if its IoU with a Ground Truth polygon exceeds the user-defined threshold (default 0.50).
 
 ## Output
-Polygons before calculation : 
-![Alt text](\imgs\polygons_for_calc.png)
+Polygons before calculation :   
+![Alt text](imgs\polygons_for_calc.png)
 
-Overlap layer :
+Overlap layer :  
 
-![Alt text](\imgs\intersect_area.png)
+![Alt text](imgs\intersect_area.png)
 
-Result Table :
+Result Table :  
 
-![Alt text](\imgs\resu_table.png)
+![Alt text](imgs\resu_table.png)
 
 
 ## Requirements
