@@ -17,7 +17,7 @@ The calculation methodology follows the approach used in the RAMP project for bu
 
 ## Output
 Polygons before calculation :   
-![Alt text](imgs/polygons_for_calc.png)
+<img src="imgs/polygons_for_calc.png" width="100">
 
 Overlap layer :  
 
