@@ -1,4 +1,5 @@
-# IoU Calculator for QGIS ![Alt text](logo_IoU.png)
+![Alt text](logo_IoU.png) 
+# IoU Calculator for QGIS 
 ## Description
 IoU Calculator for QGIS is a plugin designed for accuracy assessment of vector polygon datasets. It enables robust evaluation of object detection and segmentation results by comparing ground truth layers with predicted layers.
 
