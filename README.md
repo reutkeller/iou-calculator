@@ -3,8 +3,7 @@
 ## Description
 IoU Calculator for QGIS is a plugin designed for accuracy assessment of vector polygon datasets. It enables robust evaluation of object detection and segmentation results by comparing ground truth layers with predicted layers.
 
-The calculation methodology follows the approach used in the RAMP project for building detection (https://rampml.global/), making the plugin well suited for geospatial machine learning validation workflows.
-
+The calculation methodology follows the approach used in the RAMP project for building detection (https://rampml.global/) in the object calculation method.
 ## Features
 * **Area-Based Analysis:** Calculates global IoU, Dice Coefficient, Precision, and Recall based on the total overlapping area.
 * **Object-Based Analysis:** Performs polygon-to-polygon matching using a spatial index to calculate mIoU and F1-Score. The user needs to define minimal  threshold that will be used to define minimum overlap to decide what is matching. 
@@ -29,7 +28,7 @@ Result Table (summary for all the geometries) :
 <img src="imgs/resu_table.png" width="400">
 
   
-  *IoU value can be displayed per polygon
+  *IoU value can be displayed per polygon  
 
 ## Requirements
 * QGIS 3.0 or higher.
