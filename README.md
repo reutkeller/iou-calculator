@@ -1,10 +1,13 @@
 # IoU Calculator for QGIS 
-<img src="imgs/visualization_scores.png" width="400">  
+<img src="imgs/visualization_scores.png" width="600">  
 
 ## Description
 
-![Alt text](logo_IoU.png) 
-IoU Calculator for QGIS is a plugin designed for accuracy assessment of vector polygon datasets. It enables robust evaluation of object detection and segmentation results by comparing ground truth layers with predicted layers.
+![Alt text](logo_IoU.png)  
+
+IoU Calculator for QGIS is a plugin designed for accuracy assessment of vector polygon datasets. It enables robust evaluation of object detection and segmentation results by comparing ground truth layers with predicted layers.  
+<img src="imgs/UI_image.png" width="400">   
+
 
 The calculation methodology follows the approach used in the RAMP project for building detection (https://rampml.global/) in the object calculation method.
 ## Features
