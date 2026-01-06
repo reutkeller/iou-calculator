@@ -5,12 +5,12 @@
 [general]
 name=IoU Calculator
 qgisMinimumVersion=3.0
-description=: Tool to calculate IoU, Precision, Recall, and F1
+description= Advanced spatial validation tool for IoU, F1-Score, and Dice Coefficient
 version=0.1
 author=Reut Keller Azulay
 email=reutkeller@gmail.com
 
-about=Tool to calculate IoU, Precision, Recall, and F1.
+about=This plugin automates the calculation of Area-based and Object-based IoU, Precision, Recall, and F1-score. It generates a statistical summary table, a visual overlap layer with cross-hatch symbology, and a results layer containing individual IoU scores per polygon.
 
 tracker=https://github.com/reutkeller/iou-calculator/issues
 repository=https://github.com/reutkeller/iou-calculator
@@ -23,12 +23,12 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python, IoU, jaccard, accuracy, validation, object detection, spatial analysis, precision-recall
 
 homepage=https://github.com/reutkeller/iou-calculator
 category=Vector
-icon=icon.png
-# experimental flag
+icon=logo_IoU.png
+# experimental flagS
 experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version)
