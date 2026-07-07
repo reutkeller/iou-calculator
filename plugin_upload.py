@@ -75,8 +75,8 @@ def main(parameters, arguments):
         plugin_id = values[0].firstChild.nodeValue if len(values) > 0 else "Unknown"
         version_id = values[1].firstChild.nodeValue if len(values) > 1 else "Unknown"
 
-        print(f"Plugin ID: {plugin_id}")
-        print(f"Version ID: {version_id}")
+        print(f"Plugin ID: %s" % plugin_id)
+        print(f"Version ID: %s" % version_id)
 
     except UploadProtocolError as err:
         print(f"A protocol error occurred: {err}")
