@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/iou_calculator" >
+        <file>logo_IoU.png</file>
+    </qresource>
+</RCC>
