@@ -4,7 +4,7 @@
 
 [general]
 name=IoU Calculator
-qgisMinimumVersion=3.22
+qgisMinimumVersion=4.0
 qgisMaximumVersion=4.99
 description= Advanced spatial validation tool for IoU, F1-Score, and Dice Coefficient
 version=0.2.0
