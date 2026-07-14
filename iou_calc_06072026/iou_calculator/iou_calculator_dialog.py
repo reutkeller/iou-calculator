@@ -1,6 +1,7 @@
 import os
 import datetime
 from qgis.PyQt import uic, QtWidgets
+from qgis.PyQt.QtCore import QMetaType
 from qgis.core import (
     QgsProject,
     QgsVectorLayer,
@@ -180,8 +181,8 @@ class IoUCalculatorDialog(QtWidgets.QDialog, FORM_CLASS):
                 spatial_results = pd_layer.materialize(QgsFeatureRequest())
                 spatial_results.setName(f"IoU_Scores_{pd_layer.name()}")
                 prov = spatial_results.dataProvider()
-                # QGIS 3 & 4 compatibility: use native 'float' instead of QVariant
-                prov.addAttributes([QgsField("iou_score", float)])
+                # QGIS 3 & 4 compatibility: use QMetaType.Type
+                prov.addAttributes([QgsField("iou_score", QMetaType.Type.Double)])
                 spatial_results.updateFields()
                 idx = spatial_results.fields().indexFromName("iou_score")
                 spatial_results.startEditing()
@@ -218,8 +219,11 @@ class IoUCalculatorDialog(QtWidgets.QDialog, FORM_CLASS):
         self.progressBar.setValue(90)
         result_table = QgsVectorLayer("NoGeometry", "Accuracy_Summary_Table", "memory")
         tbl_prov = result_table.dataProvider()
-        # QGIS 3 & 4 compatibility: use native 'str' and 'float' instead of QVariant
-        tbl_prov.addAttributes([QgsField("Metric", str), QgsField("Value", float)])
+        # QGIS 3 & 4 compatibility: use QMetaType.Type
+        tbl_prov.addAttributes([
+            QgsField("Metric", QMetaType.Type.QString), 
+            QgsField("Value", QMetaType.Type.Double)
+        ])
         result_table.updateFields()
 
         table_feats = []
