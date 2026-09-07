@@ -40,5 +40,24 @@ Result Table (summary for all the geometries) :
 * QGIS 3.0 or higher.
 * All layers should be in the same Projected Coordinate System (CRS) for accurate area calculations.
 
+## Citation
+
+If you use the **IoU Calculator for QGIS** in your research or project, please cite it as:
+
+**Keller, R. (2026). *IoU Calculator for QGIS: A QGIS plugin for accuracy assessment of vector polygon predictions*. GitHub. https://github.com/reutkeller/iou-calculator**
+
+BibTeX:
+
+```bibtex
+@software{keller2026iou,
+  author = {Keller, Reut},
+  title = {IoU Calculator for QGIS: A QGIS Plugin for Accuracy Assessment of Vector Polygon Predictions},
+  year = {2026},
+  publisher = {GitHub},
+  url = {https://github.com/reutkeller/iou-calculator}
+}
+```
+
+
 ## License
 Licensed under GNU GPL v2.
